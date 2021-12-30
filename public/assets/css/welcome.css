@@ -1,0 +1,18 @@
+h1 {
+    color: #FFC107;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+a:hover {
+    color: #FFC107;
+}
+
+p {
+    color: white;
+}

@@ -62,6 +62,7 @@
                 </div>
             </div>
         </div>
+        <a href="/cursoFullStack/agenda/public" class="btn btn-secondary my-5">Página principal</a>
 
         <!-- DataTables -->
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
