@@ -48,6 +48,12 @@ class ContactosController extends Controller
      */
     public function store(Request $request)
     {
+        $request->validate([
+            "nombre" => 'required',
+            "telefono" => 'required|numeric',
+            "email" => 'required|email'
+        ]);
+
         $contacto = new Contacto;
         $contacto->nombre = $request->input('nombre');
         $contacto->apellido = $request->input('apellido');

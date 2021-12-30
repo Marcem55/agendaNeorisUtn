@@ -41,6 +41,15 @@
                         <input type="submit" class="btn btn-warning" value="Guardar">
                         <input type="reset" class="btn btn-secondary" value="Restablecer cambios">
                     </div>
+                    @if($errors->any())
+                        <div>
+                            <ul>
+                                @foreach($errors->all() as $error)
+                                    <li>{{$error}}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
                 </form>
             </div>
         </div>

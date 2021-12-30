@@ -42,7 +42,8 @@
         @endif
         <div class="container">
             <div class="col-xl-6">
-                <p>Bienvenido a la agenda de contactos. Registrate para acceder a los contactos!</p>
+                <p>Bienvenido/a a Agendapp, en donde vas a poder acceder a datos de contactos, crear nuevos, editarlos y eliminarlos!</p>
+                <p>Registrate para acceder a los contactos!</p>
                 <p>Si ya tenés una cuenta, inicia sesión.</p>
             </div>
         </div>
